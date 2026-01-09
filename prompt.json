@@ -1,0 +1,74 @@
+{
+  "jobs": [
+    {
+
+      "prompt": "Rechteckplatte 120×80×8 mm. In jeder Ecke eine Bohrung d=6 mm, Abstand der Bohrungsmittelpunkte zu den Kanten jeweils 10 mm. Zusätzlich je Bohrung eine Zylinder-Senkung (counterbore) d=12 mm, Tiefe 4 mm auf der Oberseite. "
+    },
+    {
+      "prompt": "Ringflansch: Außendurchmesser 140 mm, Innendurchmesser 90 mm, Dicke 12 mm. 8 Durchgangsbohrungen d=10 mm auf Lochkreis 120 mm, gleichmäßig verteilt."
+    },
+    {
+      "prompt": "Würfel 50×50×50 mm mit zylindrischem Durchbruch d=20 mm, der von einer Seite zur anderen Seite durchgeht. Auf der Oberseite eine zylindrische Vertiefung (counterbore) d=30 mm, Tiefe 10 mm."
+    },
+    {
+
+      "prompt": "Quader 100×60×30 mm. Oben mittig eine rechteckige Tasche 70×40 mm, Tiefe 10 mm. In der Tasche vier zylindrische Bohrung d=5 mm, durchgehend, von den ecken der Tasche jeweils 10 mm Abstand."
+    },
+    {
+      "prompt": "Zylinderrohr: Außendurchmesser 40 mm, Wandstärke 3 mm, Länge 200 mm (also Innen d=34 mm). In der Rohrmitte ein Querloch d=10 mm durch beide Wandungen (Querbohrung)."
+    },
+    {
+      "prompt": "Sechskant-Stab als Mutterrohling: über Flats 24 mm, Länge 15 mm. Mittig Durchgangsbohrung d=12 mm."
+    },
+    {
+      "prompt": "L-Block: Grundquader 60×60×20 mm. Auf der rechten Hälfte steht ein Aufsatz 30×60×30 mm (also L-Form). Durch die dicke Ecke eine horizontale Bohrung d=10 mm (in X-Richtung) mittig, Länge durchgehend. Zusätzlich eine vertikale Bohrung d=8 mm (in Z-Richtung) durchgehend, so dass sich beide Bohrungen im Inneren kreuzen."
+    },
+    {
+      "prompt": "Nabe: Außendurchmesser 80 mm, Gesamtlänge 60 mm. Innenbohrung d=30 mm durchgehend. Auf der Frontseite eine Aufweitung (Counterbore) innen d=50 mm, Tiefe 10 mm. 6 Schraubbohrungen d=8 mm auf Lochkreis 60 mm, durchgehend."
+    },
+    {
+      "prompt": "U-Bracket aus Vollmaterial: Grundplatte 80×40×10 mm. Zwei Ohren stehen auf den Enden: jedes Ohr ist ein Quader 15×40×30 mm, sitzt auf der Grundplatte links und rechts, so dass zwischen den Ohren ein Spalt von 50 mm bleibt. In jedem Ohr eine Bohrung d=10 mm, durchgehend in Y-Richtung, Bohrungszentrum 15 mm über der Grundplatte"
+    },
+    {
+      "prompt": "T-Rohr: Hauptrohr Außendurchmesser 30 mm, Wandstärke 2 mm, Länge 200 mm. Abzweigrohr Außendurchmesser 20 mm, Wandstärke 2 mm, Länge 80 mm. Abzweig sitzt mittig auf dem Hauptrohr und steht senkrecht nach oben (Z-Richtung). Innenräume müssen verbunden sein (also innen ebenfalls boolean union/cut korrekt)"
+    },
+    {
+      "prompt": "Distanzhülse (Spacer): Außen d=50 mm, Innen d=30 mm, Länge 40 mm. Auf beiden Stirnseiten je eine Fase (Chamfer) 1×45° als OPTIONALER Hinweis; falls nicht robust, weglassen."
+    },
+    {
+      "prompt": "Rechteckblock 120×80×25 mm. Durchgehend 4 Bohrungen d=9 mm in einem Rechteckmuster: Bohrungsmittelpunkte jeweils 15 mm von den Außenkanten entfernt (also bei (15,15), (105,15), (15,65), (105,65) bezogen auf Ecke unten-links). Auf der Oberseite um jede Bohrung eine Zylinder-Senkung (counterbore) d=16 mm, Tiefe 6 mm."
+    },
+    {
+      "prompt": "Stufenwelle: Gesamtlänge 120 mm. Abschnitt A (links): d=30 mm, Länge 40 mm. Abschnitt B: d=20 mm, Länge 50 mm. Abschnitt C (rechts): d=25 mm, Länge 30 mm. In Abschnitt B mittig eine Querbohrung d=6 mm durchgehend (quer zur Wellenachse)."
+    },
+    {
+      "prompt": "Grundplatte 150×100×12 mm. Mittig eine Langloch-Aussparung (capsule-slot): Gesamtlänge 60 mm, Breite 14 mm, durchgehend. Langloch längs zur 150-mm-Richtung, zentriert. Zusätzlich 2 Durchgangsbohrungen d=10 mm links und rechts des Langlochs, jeweils 30 mm vom Langlochzentrum entfernt, durchgehend."
+    },
+    {
+      "prompt": "Hohlprofil-Box (geschlossener Kasten): Außen 100×60×40 mm. Wandstärke 4 mm (also Innen 92×52×32 mm). Oben eine rechteckige Öffnung 60×30 mm, mittig, durchgehend durch die obere Wand (nur Deckfläche ausschneiden, Innenraum bleibt erhalten)."
+    },
+    {
+      "prompt": "Rundflansch mit Nabe: Flanschscheibe d=120 mm, Dicke 10 mm. Zentrale Nabe d=60 mm, Höhe 25 mm auf der Oberseite zentriert. Durchgehende Zentralbohrung d=25 mm. 6 Durchgangsbohrungen d=9 mm auf Lochkreis 90 mm, gleichmäßig verteilt."
+    },
+    {
+      "prompt": "Klemmring (Split Collar, vereinfachtes Modell): Ring: Außen d=60 mm, Innen d=40 mm, Breite 20 mm. Zusätzlich ein radialer Schlitz (Ausschnitt) durchgehend über die ganze Breite: Schlitzbreite 4 mm, von Außen bis Innen durchgehend (also Ring an einer Stelle komplett auftrennen)."
+    },
+    {
+      "prompt": "U-Profil aus Vollmaterial (einfach): Außenblock 120×60×40 mm. Von oben eine rechteckige Tasche 100×40 mm, Tiefe 30 mm, zentriert, so dass ein U-Profil mit Bodenstärke 10 mm entsteht. In beiden Seitenwänden je eine Durchgangsbohrung d=12 mm in Y-Richtung, Bohrungszentrum 20 mm über dem Boden und 20 mm von der linken Stirnseite entfernt."
+    },
+    {
+      "prompt": "Kupplungsnabe mit Passfedernut (vereinfachte Nut als rechteckiger Cut): Zylinder d=70 mm, Länge 50 mm. Durchgehende Innenbohrung d=30 mm. Passfedernut innen: rechteckige Nut 8 mm breit, 4 mm tief, Länge 30 mm, beginnt an der Frontseite und läuft axial nach innen (als rechteckiger Ausschnitt in der Innenbohrung modellieren)."
+    },
+    {
+      "prompt": "Verteilerblock (Manifold): Quader 80×50×30 mm. Längsbohrung d=12 mm entlang der 80-mm-Richtung, mittig in Höhe/Breite (durchgehend). Zusätzlich 3 Querbohrungen d=8 mm von der Oberseite nach unten (Z-Richtung) bis in die Längsbohrung, gleichmäßig verteilt bei X=20/40/60 mm, jeweils mittig in Y-Richtung."
+    },
+    {
+      "prompt": "Abdeckplatte mit Dichtnut und Schraublöchern: Rechteckplatte 140×90×10 mm. Auf der Unterseite eine rechteckige Dichtnut: Nutbreite 5 mm, Nut-Tiefe 3 mm, verläuft 8 mm innerhalb des Außenrands (also Nutmittel-Linie ist 8 mm vom Rand entfernt, rechteckig umlaufend). Zusätzlich 6 Durchgangsbohrungen d=7 mm für Schrauben: je eine in jeder Ecke (12 mm von den Kanten) und je eine mittig an den langen Seiten (X-Richtung, jeweils 12 mm von der langen Kante und in der Mitte der Länge)."
+    },
+    {
+      "prompt": "eine riemenscheibe: innen ein zylinder als grundkörper mit d=120mm und 5mm breite. links und rechts am zylinder anschließend jeweils eine scheibe mit d=140mm und 1,5mm breite. durch alle zylinder eine durchgangsbohrung mittig mit d=20mm und ein vierlochflansch mit d=5mm und abstand zum mittelpunkt von 60mm"
+    }
+
+
+  ]
+}
